@@ -1,0 +1,123 @@
+.homepage {
+        border: 1px solid black !important;
+}
+
+.homepage-1 {
+        width: 100%;
+        padding-top: 68px;
+}
+
+.block-1 {
+        margin-top: 28px;
+}
+
+.border-bottom {
+        border-bottom: 1px solid #16181C !important;
+        opacity: 0.6;
+}
+
+.heading-1 h1 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #0C0C0C !important;
+}
+
+.main-cards {
+        position: relative !important;
+        display: flex;
+        width: 1450px;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        margin-left: 0px;
+}
+
+.main-card {
+        position: relative;
+        width: 470px;
+        height: 180px;
+        background: #3E72FB !important;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 16px
+}
+
+.main-card:nth-child(3n) {
+        margin-right: 0 !important;
+}
+
+.main-card:nth-child(4), .main-card:nth-child(5), .main-card:nth-child(6) {
+        margin-bottom: 0px;
+}
+
+.main-card .Accumulated {
+        display: flex;
+        padding-left: 90px;
+        padding-top: 48px;
+        align-items: center;
+}
+
+.Accumulated .Event-img {
+        /* padding-left: 31px; */
+        /* margin-top: 45px; */
+        position: absolute;
+        top: 46px;
+        left: 30px;
+}
+
+.Accumulated .Event-img-1 {
+        margin-top: 45px;
+        padding-left: 31px;
+}
+
+.Accumulated p {
+        /* padding-left:31px; */
+        font-family: Spoqa Han Sans Neo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+}
+
+.img {
+        padding-top: 40px;
+}
+
+.img-1 {
+        padding-top: 15px;
+}
+
+.img-2 {
+        padding-top: 10px;
+}
+
+.main-card h3 {
+        margin-top: 21px;
+        text-align: right;
+        padding-right: 60px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        color: #FFFFFF;
+        height: 54px;
+        line-height: 54px;
+        font-family: 'Montserrat', sans-serif;
+}
+
+.main-card h3 sub {
+        font-size: 20px;
+        color: #FFFFFF;
+        /* top: auto !important; */
+        right: 0px !important;
+        font-family: Spoqa Han Sans Neo;
+        position: absolute;
+        bottom: 44px !important;
+        right: 30px !important;
+        height: 24px;
+        line-height: 24px;
+}

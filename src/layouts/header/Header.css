@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list_icon {
+  outline: none;
+}
+
+.position-fixed {
+  background: #ffffff;
+  font-family: SpoqaHanSans;
+}
+
+.img-h-w {
+  width: 133px;
+  height: 28px;
+  margin-right: 177px;
+  margin-left: 60px;
+  margin-top: 31px;
+  /* bottom: 17px; */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-link {
+  display: flex !important;
+  /* align-items: center; */
+  height: 90px;
+}
+
+.header-bg {
+  padding: 0;
+  height: 90px;
+  z-index: 1;
+}
+
+.header-link .header-tab {
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  color: #989898;
+  margin-right: 40px;
+  padding-top: 38px;
+}
+.header-link .header-tab:last-child {
+  margin-right: 0;
+}
+.header-link .header-tab-active {
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  color: #003C96;
+  margin-right: 40px;
+  cursor: pointer;
+  position: relative;
+  padding-top: 38px;
+
+  /* height: 90px; */
+}
+
+.header-link .header-tab-active:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #003C96;
+  bottom: 0;
+}
+
+/* .Member-Settings-h-w{
+    width: 98px;
+    height: 33px;
+    margin-right: 43px;
+    color: #989898;
+    font-size: 16px;    
+    font-style: normal;
+    font-weight:400;
+}
+
+.Memorial-Hall-Settings-h-w{
+    width: 80px;
+    height: 24px;
+    margin-right: 60px;
+    color: #989898;
+    font-size: 16px;
+    font-weight:400;
+   
+}
+
+.Other-Settings-h-w{
+    width: 64px;
+    height: 24px;
+    color: #989898;
+    font-size: 16px;
+    font-weight:400;
+} */
+
+.img-admin-set {
+  display: flex;
+  width: 120.97px;
+  height: 28px;
+  align-items: center;
+  line-height: 50%;
+}
+
+.img-admin-set h4 {
+  color: #989898;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+}
+
+.img-admin-set img {
+  margin-right: 14px;
+  width: 28px;
+  height: 28px;
+}
+
+.mr-14 {
+  position: relative;
+  margin-right: 14px;
+}
+
+.navbar {
+  padding-right: 50.03px !important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  width: 1920px;
+  top: 0;
+}
+
+.ml-15 {
+
+
+  margin-left: 15px;
+  top: 48px;
+  box-sizing: border-box;
+}
+
+.c-sidebar-nav-link {
+  width: 370px;
+  padding: 29px 40px 29px 60px !important;
+  height: 80px;
+  font-size: 18px;
+  line-height: 36px;
+  color: #0c0c0c;
+  font-family: 'Roboto', sans-serif;
+}
+
+.c-sidebar-nav-link:hover {
+  background-color: #d0d0d0 !important;
+  text-decoration: none !important;
+  color: #0c0c0c !important;
+}
+
+.logout-btn-header {
+  height: 90px !important;
+  padding-top: 33px !important;
+}
+
+.logout-btn-header a {
+  font-family: SpoqaHanSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  color: #989898 !important;
+}
+
+.h-28 {
+  height: 28px;
+  line-height: 28px;
+}
+
+.mt-2 {
+
+  margin-left: 14px;
+  margin-bottom: 15px;
+}
+
+.container-fluid {
+  width: 1920px;
+}
+
+.c-sidebar {
+  position: fixed !important;
+  width: 370px;
+  height: 990px;
+  top: 90px;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  background-color: #fafafa;
+}
+
+div.container-fluid nav {
+  z-index: 2;
+}
+
+
+.logout-btn-header .profile {
+  width: 36px;
+  height: 36px;
+}
+
+.logout-btn-header .arrow {
+  width: 8px;
+  height: 8px;
+}
+
+
+.profile-dropdown {
+  background: transparent !important;
+  border: none !important;
+  font-weight: bold;
+  line-height: 28px;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 18px !important;
+  color: #989898 !important;
+  padding: 0 !important;
+}
+
+.profile-dropdown::after {
+  display: none;
+}
+
+.profile-dropdown-menu {
+  font-weight: bold;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 18px !important;
+  color: #989898 !important;
+  min-width: 8rem !important;
+  top: 82% !important;
+}
+
+.profile-dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem !important;
+}
+
+.logout-btn-header .profile-dropdown-menu a {
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #989898 !important;
+}

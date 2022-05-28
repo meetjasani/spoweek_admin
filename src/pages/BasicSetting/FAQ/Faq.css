@@ -1,0 +1,387 @@
+.faq-list .main-heading {
+    display: flex;
+    margin-top: 50px;
+}
+
+.faq-list .main-heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+    color: #0C0C0C;
+}
+
+.faq-list .search-section {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 29px 20px;
+    font-weight: bold;
+}
+
+.search-section .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+    height: 22px;
+}
+
+.faq-list .date-of-registration-set {
+    padding: 29px 20px;
+    background: #f5f5f5;
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+  }
+
+  .faq-list .DatePicker-set-main {
+    width: 525px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 29px 25px;
+    border: none;
+    outline: none !important;
+    position: relative;
+  }
+
+  .faq-list .DatePicker-set-input input {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #111111;
+    text-decoration: underline;
+    text-decoration-color:  #989898;
+    outline: none !important;
+  }
+
+  .faq-list .DatePicker-set-input  .datepicker-separator{
+    margin-right: 36px !important;
+  }
+  
+  .faq-list .DatePicker-set-main  .DatePicker-set-input:nth-child(2){
+    position: absolute;
+    left : 176px;
+  }
+
+  .faq-list .DatePicker-set {
+    border: none !important;
+  }
+
+  .faq-list .search-term-label {
+    padding: 29px 20px;
+    background: #f5f5f5;
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+  }
+
+  .faq-list .search-term-input-padding {
+    padding: 29px 20px;
+  }
+
+  .faq-list .search-term-input-set {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 485px;
+    height: 22px;
+    border: none;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    outline: none !important;
+  }
+
+  .faq-list .search-btn-container {
+    text-align: center !important;
+    margin: 30px  0 119px !important;  
+  }
+
+  .faq-list .Search-btn-set {
+    width: 400px;
+    height: 70px;
+    background-color: #003c96;
+    border-radius: 100px;
+    border: none;
+    margin-left: 1050px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .faq-list .list-top-border {
+    width: 1450px;
+    height: 1px;
+    background-color: #0c0c0c;
+    opacity: 0.6;
+  }
+
+  .faq-list .Search-Results-row {
+    padding: 29px 20px ;
+    height: 80px;
+  }
+  
+  .faq-list .border {
+    content: "";
+    width: 1450px;
+    position: absolute;
+    height: 1px;
+    background-color: #989898;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+
+  /* Table  */
+  .faq-list .notification-list-table table {
+    border: none;
+  }
+  
+  .faq-list .notification-list-table .table-bordered tbody tr {
+    border-bottom: 1px solid rgb(152 152 152 / 60%);
+  }
+
+  .faq-list .custom-datatable .tab-main {
+    text-align: left;
+    padding: 22px 0;
+  }
+  /* .faq-list .custom-datatable .table td,
+  .faq-list .custom-datatable .table th {
+    padding: 22px 0.75rem;
+  }
+   */
+  .faq-list .custom-datatable .table-bordered thead tr {
+    border-top: 1px solid rgb(152 152 152 / 60%);
+    border-bottom: 1px solid rgb(152 152 152 / 60%);
+    background-color: #f5f5f5;
+  }
+  
+  .faq-list .custom-datatable .table-bordered td,
+  .faq-list .custom-datatable .table-bordered th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #0C0C0C;
+    border: none;
+  }
+  .faq-list .custom-datatable .tab-main span:last-child {
+    border-right: none;
+  }
+
+  .faq-list .notification-detail-title {
+    text-align: left !important;
+  }
+  
+  .faq-list .notification-detail-title button {
+    border: 1px solid #ff7456 !important;
+    border-radius: 100px !important;
+    background-color: transparent !important;
+    width: 154px;
+    height: 42px;
+    margin-left: auto;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 36px;
+    color: #ff7456;
+  }
+  
+  .faq-list .notification-detail-title .delete-btn {
+    position: absolute;
+    top: -56px;
+  }
+
+  .faq-list .notification-detail-title .delete-btn-no-data {
+    position: absolute;
+    top: 0px;
+  }
+
+  /* .faq-list th:nth-child(1) {
+    margin-left: 0 !important;
+    padding: 0 50.69px 16px 50.69px !important;
+  }
+  
+  .faq-list td:nth-child(1) {
+    margin-left: 0 !important;
+    padding: 26px 50.69px 0 50.69px !important;
+  } */
+
+  .faq-list .member-list-table .react-bs-table-sizePerPage-dropdown #pageDropDown {
+    position: absolute !important;
+    width: 220px;
+    height: 50px;
+    left: 505px;
+    top: -65px;
+    background: #ffffff;
+    color: #0c0c0c;
+    border-radius: 100px;
+    text-align: left;
+    padding: 13px 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid #cacaca;
+}
+
+.faq-list .paginationcustom .dropdown-menu {
+    left: 512px !important;
+    min-width: 220px !important;
+    top: 0px;
+    padding: 0;
+    text-align: left;
+}
+
+.faq-list th,
+.faq-list td {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 80px !important;
+}
+/* 
+.faq-list th:nth-child(1) {
+    margin-left: 0 !important;
+    padding: 0 50.69px 15px 50.69px !important;
+    width:10px !important;
+  }
+  
+  .faq-list td:nth-child(1) {
+    margin-left: 0 !important;
+    padding: 26px 50.69px 0 50.69px !important;
+    width:10px !important;
+  }
+
+.faq-list th:nth-child(2), 
+.faq-list td:nth-child(2)
+{
+  width: 90px !important;
+  padding-right: 50px !important;
+}
+
+.faq-list th:nth-child(3), .faq-list td:nth-child(3) {
+    width: 260px !important;
+  }
+
+.faq-list td:nth-child(3) {
+    text-align: left;
+  }
+
+.faq-list th:nth-child(4), .faq-list td:nth-child(4) {
+    width: 500px !important;
+  }
+
+  .faq-list td:nth-child(4) {
+    text-align: left;
+  }
+
+.faq-list th:nth-child(5), .faq-list td:nth-child(5) {
+    width: 138px !important;
+  }
+
+.faq-list th:nth-child(6), .faq-list td:nth-child(6) {
+    width: 138px !important;
+  } */
+
+
+
+/* Registration CSS */
+
+.NotificationRegister .Register {
+    display: flex !important;
+    padding-top: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.NotificationRegister .back-btn {
+    margin-left: auto;
+}
+
+/* .NotificationRegister .boxline {
+    width: 1450px;
+    height: 1px;
+    background: #16181C;
+    opacity: 0.6;
+} */
+
+.NotificationRegister .main-box {
+    align-items: center;
+    height: 80px;
+    border-top: 1px solid #c1c1c1 !important;
+}
+
+.NotificationRegister .boxline1 {
+    width: 1450px;
+    height: 1px;
+    background: #989898;
+    opacity: 0.6;
+}
+
+.NotificationRegister .name {
+    background: #F5F5F5;
+    width: 200px;
+}
+
+.NotificationRegister .name P {
+    color: #000000;
+    font-size: 18px;
+    height: 80px;
+    font-weight: normal;
+    padding: 29px 20px 29px 20px;
+}
+
+.NotificationRegister input {
+    border: none !important;
+    width: 100%;
+    padding: 29px 20px 29px 20px;
+    height: 80px;
+    outline: none;
+}
+
+.NotificationRegister .label-box {
+    display: flex !important;
+    align-items: center;
+}
+
+.NotificationRegister .Email {
+    background: #F5F5F5;
+    width: 200px;
+}
+
+.NotificationRegister .Email P {
+    color: #000000;
+    font-size: 18px;
+    height: 80px;
+    font-weight: normal;
+    padding: 29px 20px;
+}
+
+.NotificationRegister .detail-box {
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.ck-editor-div {
+    margin-top: 40px;
+    width: 1027px;
+}

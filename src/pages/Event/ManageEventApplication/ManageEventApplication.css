@@ -1,0 +1,438 @@
+.application .application-title {
+  display: flex !important;
+  padding-top: 50px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.application-title h4 {
+  font-family: Roboto;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  line-height: 24px;
+  align-items: center;
+  color: #0c0c0c !important;
+}
+
+.application .btn-2 {
+  margin-left: auto;
+}
+
+.application-title .cancel-btn {
+  border: 1px solid #003c96;
+  border-radius: 30px;
+  width: 154px;
+  height: 42px;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  background-color: white;
+  color: #003c96;
+  margin-right: 10px;
+}
+
+.application-title .save-btn {
+  width: 154px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  background: #003c96 !important;
+  border-radius: 30px;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: Spoqa Han Sans Neo;
+}
+
+.border-bottom {
+  background: #16181c;
+  opacity: 0.6;
+}
+
+.application .heading-2 h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  height: 80px;
+  padding: 28px 20px 30px 20px;
+}
+
+.btn-3 {
+  display: flex;
+}
+
+.Cancel-participation {
+  margin-left: auto;
+  width: 154px;
+  height: 42px;
+  margin-top: 19px;
+  font-family: SpoqaHanSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #ff7a7a !important;
+  border-radius: 30px;
+  background: white !important;
+  color: #ff7a7a !important;
+}
+
+.pm-cancel-participation-ctn {
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.add-btn {
+  margin-left: auto;
+  width: 154px;
+  height: 42px;
+  margin-top: 19px;
+  font-family: SpoqaHanSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 30px;
+  /* background: #3E72FB !important; */
+  color: #ffffff;
+}
+
+.main-manage {
+  display: flex;
+}
+
+.manage-labal-box {
+  display: flex;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.manage-labal-box .manage-box {
+  width: 200px;
+  background: #f5f5f5;
+}
+
+.manage-labal-box .manage-box label {
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0c0c0c;
+  height: 80px;
+  padding: 29px 20px;
+}
+
+.details-box {
+  width: 525px;
+  background: #ffffff;
+}
+
+.main-manage .details-box {
+  padding: 29px 20px;
+  height: 80px;
+  background: #ffffff;
+}
+
+.main-manage .details-box input {
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  border: none;
+}
+
+.main-manage .details-box input:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.gender-select-box .selection-box {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #cacaca;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.confirmed-select-box .confirmed-box {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #cacaca;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.details-box-1 {
+  width: 525px;
+  background: #ffffff;
+}
+
+.select-drop {
+  padding-top: 15px;
+}
+
+.application .GenderselectBox {
+  width: 220px !important;
+  height: 50px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-left: 20px;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  border: 1px solid #cacaca;
+}
+
+select:focus {
+  outline: none;
+}
+
+.application .GenderselectBox.Selectorpoint {
+  background-image: url(../../../img/arrows.png);
+  background-position: calc(100% - 20px) calc(1em + -5.5px),
+    calc(100% - 15px) calc(1em + 6px), calc(100% - 2.5em) 0.5em;
+  background-repeat: no-repeat;
+}
+
+.box-btn-1 {
+  position: relative;
+}
+
+.box-btn-2 {
+  position: absolute;
+  width: 110px;
+  height: 36px;
+  right: 20px;
+  top: 22px;
+}
+
+.btn-2 .BackBtn {
+  width: 154px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #003c96;
+  background: transparent !important;
+  border: 1px solid #003c96;
+  border-radius: 30px;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: Spoqa Han Sans Neo;
+  margin-right: 10px;
+}
+
+.box-btn-2 button {
+  width: 110px;
+  height: 36px;
+  border: 1px solid #003c96;
+  border-radius: 100px;
+  background: white;
+  color: #003c96;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+#imgupload {
+  display: none;
+}
+
+.details-box .img-p {
+  height: 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3e72fb;
+  text-decoration-line: underline;
+}
+
+.img-p .close-img {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.selector-set {
+  border: 1px solid #cacaca;
+  height: 50px;
+  width: 220px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.selector-set-gray {
+  border: 1px solid #cacaca;
+  height: 50px;
+  width: 220px;
+  border-radius: 100px;
+  padding-left: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0c0c0c;
+  font-family: Spoqa Han Sans Neo;
+}
+
+.selector-set:first-child {
+  color: #989898 !important;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.select-custom option {
+  font-weight: normal;
+  font-size: 18px;
+  color: #0c0c0c;
+  font-family: Spoqa Han Sans Neo;
+}
+
+.select-custom option:first-child {
+  display: none !important;
+}
+
+.event-app-dropdwn {
+  border-radius: 10px !important;
+}
+
+.manage-application-list th,
+.manage-application-list td {
+  padding-left: 0px !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 80px;
+}
+
+.manage-application-list th,
+.manage-application-list td {
+  padding-top: 29px;
+}
+
+/* .normalBtn:first-child {
+  color: #003c96;
+  background: transparent;
+  border: 1px solid #003c96;
+  margin-right: 10px;
+} */
+
+.tab-line,
+.tab-line1 {
+  position: absolute;
+  width: 2px;
+  height: 19px;
+  background: #c4c4c4;
+  margin-top: 10px;
+}
+
+.pm-tab-line {
+  left: 481px;
+}
+
+.tab-line1 {
+  left: 901px;
+}
+
+.sel-manage .selection-cell,
+.sel-manage .selection-cell-header {
+  display: none;
+}
+
+.back-btn {
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.back-btn .back {
+  margin-right: 10px;
+  width: 154px;
+  height: 42px;
+  border: 1px solid #003c96;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  color: #003c96;
+  background: transparent;
+}
+
+.back-btn .save {
+  width: 154px;
+  height: 42px;
+  background: #003c96;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  color: #ffffff;
+  border: none;
+}
+
+.table-width {
+  position: relative;
+}
+
+.Participant-list .Downloads {
+  bottom: -2px !important;
+}
+
+.Participant-list .Download-data, .Participant-list .Downloads {
+
+  position: absolute;
+  right: 0;
+  bottom: -42px;
+  width: 154px;
+  height: 42px;
+  border: 1px solid #003C96;
+  border-radius: 100px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #003C96;
+}
+
+.modal-dropdown-arrow-up {
+  transform: rotate(180deg);
+}
+
+.modal-dropdown-arrow-down {
+  transform: rotate(360deg);
+}
+
+.edit-back-btn-add .saveBtn {
+  width: 154px;
+  height: 42px;
+  line-height: 31px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  /* background: #003c96 !important; */
+  border-radius: 30px;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: Spoqa Han Sans Neo;
+}
+.dynamic-form-data.pm-alldynamic-data p{
+  color: #FF7A7A;
+  font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.6px;
+}
+
+.btn-rigth{
+  margin-left: auto;
+}

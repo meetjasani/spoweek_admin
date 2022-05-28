@@ -1,0 +1,47 @@
+.event-app-dropdwn {
+  border-radius: 10px;
+}
+.manage-event-list th {
+  padding-top: 29px;
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.member-list-table {
+  position: relative !important;
+}
+
+.member-list-table .react-bs-table-sizePerPage-dropdown {
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.member-list-tables .react-bs-table-sizePerPage-dropdown #pageDropDown {
+  position: absolute !important;
+  width: 220px;
+  height: 50px;
+  left: 505px;
+  top: -65px;
+  background: #ffffff;
+  color: #0c0c0c;
+  border-radius: 100px;
+  text-align: left;
+  padding: 13px 20px;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  border: 1px solid #cacaca;
+}
+
+.member-list-table .react-bs-table-sizePerPage-dropdown #pageDropDown:focus {
+  box-shadow: none !important;
+}
+
+.member-list-tables .event-delete .dropdown-menu {
+  position: absolute;
+  top: -7px;
+}

@@ -1,0 +1,12 @@
+.main-body {
+    display: flex;
+}
+
+.pages{
+    flex: 0.85;
+}
+.relative-div {
+    display: flex;
+    width:1920px;
+    margin: 0 auto;
+}

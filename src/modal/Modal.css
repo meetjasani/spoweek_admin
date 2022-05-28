@@ -1,0 +1,243 @@
+.modal-header button span:first-child {
+  display: none !important;
+}
+
+.modal-header button {
+  background-image: url(../img/modalclose.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: 90% 50% !important;
+  margin-right: -1px !important;
+  margin-top: 1px !important;
+}
+
+.deletemember-pop-up .modal-content {
+  width: 460px !important;
+  padding: 48px 29px 50px 31px !important;
+  background: #ffffff;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+  border-radius: 30px !important;
+  border: none !important;
+  border-bottom: 1px solid;
+  margin: 0 auto !important;
+}
+
+.deletemember-pop-up .close {
+  color: #cacaca !important;
+}
+
+.deletemember-pop-up .modal-header {
+  display: flex !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  padding: 0px 0px 30px 0px !important;
+  align-items: center;
+}
+
+.deletemember-pop-up .pm-deletemember-popupctn {
+  padding-top: 29.2px !important;
+  padding-bottom: 40px !important;
+}
+
+.deletemember-pop-up .pm-application-labelctnbox {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: -0.6px;
+  line-height: 18px;
+  width: 100%;
+}
+
+.deletemember-pop-up .pm-cancelapplication-input {
+  width: 100%;
+  height: 44px;
+  border-radius: 100px;
+  padding: 0;
+  padding-left: 20px;
+  letter-spacing: -0.6px;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.deletemember-pop-up .pm-deletemember-popupctn h4:first-child {
+  padding-bottom: 10px;
+}
+
+.pm-deletemember-popup button {
+  width: 24px;
+  height: 24px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* .deletemember-pop-up .pm-deletemember-popup {
+  padding-top: 48px !important;
+  padding-left: 31px !important;
+  padding-right: 29px !important;
+  padding-bottom: 30px !important;
+} */
+
+/* .deletemember-pop-up .pm-deletemember-popupctn {
+  padding-top: 29.2px !important;
+  padding-left: 31px !important;
+  padding-right: 29px !important;
+  padding-bottom: 40px !important;
+} */
+
+.deletemember-pop-up-title {
+  width: 370px !important;
+  height: 34px !important;
+  text-align: left;
+  font-size: 24px !important;
+  font-weight: 700;
+  letter-spacing: -1px !important;
+  color: #010100 !important;
+}
+
+.deletemember-pop-up .close {
+  color: #cacaca !important;
+}
+
+.deletemember-pop-up-content {
+  padding: 0px !important;
+  width: 400px !important;
+  flex: none !important;
+  margin-top: 29.2px !important;
+}
+/* .pm-deletemember-popupctn .Deletemember-tittle {
+  padding: 29.2px 0px 40px 0px !important;
+} */
+
+.deletemember-pop-up-content h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+  letter-spacing: -0.6px;
+}
+
+.deletemember-pop-up-footer.modal-footer {
+  border-top: none !important;
+  padding: 0px !important;
+
+}
+
+.deletemember-pop-up-footer.modal-footer button {
+  font-weight: 700;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.deletemember-pop-up-No-btn {
+  width: 400px !important;
+  height: 50px !important;
+  background: #3e72fb !important;
+  border-radius: 100px !important;
+  border: none !important;
+  margin: 0px 0px 20px 0px !important;
+}
+
+.deletemember-pop-up-yes-btn {
+  width: 400px !important;
+  height: 50px !important;
+  background: transparent !important;
+  border-radius: 100px !important;
+  margin: 0px !important;
+  color: #3e72fb !important;
+  border: 2px solid #3e72fb !important;
+}
+
+
+/* \\\\\\\\\\\\\\                  RegisterDonation-pop-up                ///////////////////////// */
+
+/* .registerdonation-pop-up .modal-content {
+    width: 450px !important;
+    background: #ffffff !important;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07) !important;
+    border-radius: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 40px 60px !important;
+  }
+  
+  .registerdonation-pop-up .close {
+    color: #cacaca !important;
+  }
+  
+  .registerdonation-pop-up-title {
+    width: 370px !important;
+    height: 34px !important;
+    text-align: left;
+    font-size: 30px !important;
+    letter-spacing: -1px !important;
+    color: #010100 !important;
+  }
+  
+  .registerdonation-pop-up .modal-header {
+    display: flex !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    padding: 0px 0px 30px 0px !important;
+  }
+  
+  .registerdonation-pop-up-content {
+    padding: 0px !important;
+    width: 370px !important;
+    flex: none !important;
+  }
+  
+  .registerdonation-pop-up-lable {
+    margin-bottom: 0px !important;
+    padding: 30px 0px 20px !important;
+    font-family: SpoqaHanSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: #010100;
+    width: 370px;
+  }
+  
+  .registerdonation-pop-up-input {
+    width: 370px !important;
+    height: 64px !important;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+  }
+  
+  .registerdonation-pop-up-btn {
+    width: 370px !important;
+    height: 54px !important;
+    background: #3e72fb !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin: 0px !important;
+  }
+  
+  .registerdonation-pop-up-btn-2 {
+    width: 370px !important;
+    height: 54px !important;
+    color: #3e72fb !important;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    border: 2px solid #3e72fb !important;
+    margin-top: 20px !important;
+    padding: 0px !important;
+  }
+  
+  .registerdonation-pop-up-footer.modal-footer {
+    padding-top: 50px !important;
+    border-top: none !important;
+  } */
+
+/* \\\\\\\\\\\\\\\\\\                   addfile-pop-up-btn              /////////////////////*/
+
+/* .addfile-pop-up-footer.modal-footer {
+    padding: 60px 0px 0px 0px !important;
+    border-top: none !important;
+  } */

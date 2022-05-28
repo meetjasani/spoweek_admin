@@ -1,0 +1,179 @@
+.registration-event {
+    padding-bottom: 170px;
+}
+
+.registration-event .event-title-row {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #16181C;
+}
+
+.registration-event .edit-back-btn {
+    margin-left: auto;
+}
+
+.registration-event .event-main-title h3 {
+    font-size: 20px;
+    color: #0C0C0C;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration-event .edit-back-btn .BackBtn {
+    border: 1px solid #003C96;
+    border-radius: 30px;
+    width: 154px;
+    background-color: #fff !important;
+    height: 42px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #003C96;
+    margin-right: 10px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.registration-event .edit-back-btn .saveBtn {
+    border: 1px solid #003C96;
+    border-radius: 30px;
+    width: 154px;
+    background-color: #003C96 !important;
+    height: 42px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    font-family: Spoqa Han Sans Neo;
+
+}
+
+.registration-event .event-details {
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.registration-event .event-details p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0C0C0C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration-event .single-details-lable {
+    display: flex;
+    border-bottom: 1px solid #c1c1c1;
+    
+}
+
+.registration-event .single-details-lable .lable-box {
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background: #F5F5F5;
+    padding-left: 20px;
+}
+
+.registration-event .single-details-lable .lable-box p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0C0C0C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration-event .single-details-lable .details-box {
+    width: 1250px;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    padding-left: 25px;
+}
+
+.registration-event .single-details-lable .details-box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #0C0C0C;
+}
+
+.registration-event .event-info {
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+    border-bottom: 1px solid #c1c1c1;
+    margin-top: 50px;
+    border-top: 1px solid #16181C;
+}
+
+.registration-event .event-info p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #16181C;
+}
+
+.registration-event .single-details-method {
+    display: flex;
+    border-bottom: 1px solid #c1c1c1;
+    width: 100%;
+}
+
+.registration-event .single-details-method .method-lable {
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background: #F5F5F5;
+    padding-left: 20px;
+}
+
+.registration-event .single-details-method .method-lable p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0C0C0C;
+}
+
+.registration-event .single-details-method .method-details {
+    width: 525px;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    padding-left: 25px;
+}
+
+.registration-event .single-details-method .method-details p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #0C0C0C;
+    width: 1250px;
+}
+
+.registration-event .main-box {
+    display: flex;
+}
+
+.registration-event .main-box1 {
+    display: flex;
+}
+
+.registration-event .detail-award {
+    margin-top: 20px;
+    border-top: 1px solid #c1c1c1;
+}
+
+.registration-event .Automatically {
+    margin-top: 50px;
+    border-top: 1px solid #c1c1c1;
+}
+
+.registration-event .single-details-method .location-offline {
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
